@@ -1,0 +1,240 @@
+{
+  "id": "b4259321-a8bd-40e7-8eab-72512149bdcd",
+  "version": "2.0",
+  "name": "Testare",
+  "url": "https://www.celoplast.ro",
+  "tests": [{
+    "id": "addd8d1b-be74-46bb-9063-806b7a672a4f",
+    "name": "TC-001",
+    "commands": [{
+      "id": "be87282a-f63e-479a-9558-78857285a5da",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "292f16a0-bcb7-4c7a-9992-cb5cd545c60b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x916",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "353d33ec-6c37-49d0-b3d4-12834bb92f3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle",
+      "targets": [
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7735f3f-0598-4c48-8776-95b564d476b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flori artificiale",
+      "targets": [
+        ["linkText=Flori artificiale", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flori artificiale')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-artificiale-.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flori artificiale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8885e644-29b9-4d9b-ae06-23ee1ba7d40d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[3]/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "25dab9cb-134d-4298-99b4-4af9e547bcae",
+    "name": "TC-002",
+    "commands": [{
+      "id": "947c547a-7017-4612-8f4d-526c55345d56",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "276c95a8-7d13-478b-8390-5677e80a8fc6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4e3be98-33bc-47f9-b99b-f6917c14c0ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flori artificiale",
+      "targets": [
+        ["linkText=Flori artificiale", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flori artificiale')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-artificiale-.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flori artificiale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "264a95a8-0182-4a17-a872-af73c421a595",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(4) a:nth-child(3) .ls-is-cached",
+      "targets": [
+        ["css=.col-xs-12:nth-child(4) a:nth-child(3) .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='Garoafe color']", "xpath:img"],
+        ["xpath=//div[@id='category-page']/div[3]/div[5]/div[4]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div[4]/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7c670dd-6f14-471c-ad99-c01116d1e7d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[11]/button", "xpath:idRelative"],
+        ["xpath=//div[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a80d107-ec08-4fc0-b7e9-849557f0efdf",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Selectați model",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5bd04494-5f0c-4589-9480-6bb4b50ea0b9",
+    "name": "TC-003",
+    "commands": [{
+      "id": "f360420d-c41a-4e43-a53c-d9a6018c5d36",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a2add79-409e-400c-9261-76d1572a85a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7a6567b-53e3-4c9d-82a5-41e052f798e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flori artificiale",
+      "targets": [
+        ["linkText=Flori artificiale", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flori artificiale')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-artificiale-.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flori artificiale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edf81387-4314-4a42-9b91-774e1b890d58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(4) a:nth-child(3) .ls-is-cached",
+      "targets": [
+        ["css=.col-xs-12:nth-child(4) a:nth-child(3) .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='Garoafe color']", "xpath:img"],
+        ["xpath=//div[@id='category-page']/div[3]/div[5]/div[4]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div[4]/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b5fe83e-bc07-48ef-bf93-e9c714e59952",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-4:nth-child(4) > label",
+      "targets": [
+        ["css=.col-xs-4:nth-child(4) > label", "css:finder"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,' model 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11152738-27cf-4cd3-908e-e33c533f19df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[11]/button", "xpath:idRelative"],
+        ["xpath=//div[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d5200c8-d3b6-40f3-9768-0dda0f139a2f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[11]/button", "xpath:idRelative"],
+        ["xpath=//div[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "128b68f6-03c5-4202-93f8-4ce92b9acf98",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[11]/button", "xpath:idRelative"],
+        ["xpath=//div[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f254361e-e879-4452-9d2c-622815b448db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .fa-shopping-basket",
+      "targets": [
+        ["css=.btn-success > .fa-shopping-basket", "css:finder"],
+        ["xpath=//div[@id='myModal']/div/div/div[2]/div/div[3]/a/i", "xpath:idRelative"],
+        ["xpath=//div[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "64e9f2b9-5ab3-4b67-9dc5-b864a1a5497d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["addd8d1b-be74-46bb-9063-806b7a672a4f"]
+  }],
+  "urls": ["https://www.celoplast.ro/"],
+  "plugins": []
+}
