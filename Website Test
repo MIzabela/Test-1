@@ -1,0 +1,2523 @@
+{
+  "id": "65aed109-e2d0-4d25-9c71-3b5edd087424",
+  "version": "2.0",
+  "name": "Testare Celoplast 1",
+  "url": "https://www.celoplast.ro/",
+  "tests": [{
+    "id": "a4788efe-2007-4637-bc86-14c270d03a7c",
+    "name": "TC-001",
+    "commands": [{
+      "id": "3b6f9642-6541-4579-a122-2928da81ab91",
+      "comment": "Sorting products working well",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9bee78e-5fbf-47c3-9597-11fce3e94cd3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3056f42-7822-4168-84dc-7ef08da774c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vase plastic",
+      "targets": [
+        ["linkText=Vase plastic", "linkText"],
+        ["css=li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vase plastic')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vase-plastic.html')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vase plastic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a766344-16f5-4e8b-9731-d299d0b1f6f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[3]/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3766f54d-20f8-4269-b1dc-eefacaae4255",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Ordonare implicită"
+    }, {
+      "id": "4f915223-08bd-4dbf-b037-b1cd78e72332",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[3]/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba8e1998-c343-484b-b736-ae50bedb9268",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Preț crescător"
+    }, {
+      "id": "ee45800e-3e9f-4596-a445-b2cbf84193c3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,205.60000610351562)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5048a32-b1b8-4fc6-8ee3-cfea1b33f493",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[3]/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63b40f25-65a8-4f42-a14d-65a5133b3d94",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Preț descrescător"
+    }, {
+      "id": "47e5bf4f-5818-4725-8ddb-eb7aa6c3e235",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,412.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "860bedf4-a4b8-4af2-8600-547e34682f22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop > .col-xs-6:nth-child(1)",
+      "targets": [
+        ["css=.paginaretop > .col-xs-6:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[3]/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "748a293b-a650-493e-b473-36ddbdbc77c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[3]/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04a12d28-2f20-4f63-90c8-22c41e8d4359",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Nume"
+    }, {
+      "id": "924424b1-c71e-4119-b399-30645cc34c9a",
+      "comment": "Display products in the chosen order",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bde86a7b-894b-46d1-a286-668b972a8ac1",
+    "name": "TC-002",
+    "commands": [{
+      "id": "1013a33a-851c-4fee-9cc3-43fff47c0971",
+      "comment": "Display products in the chosen order from \"News\" and \"Artificial flowers\"",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25562d29-8653-4746-99d8-6eeacc5698a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b666df68-c596-4e0a-a597-65dd0f7088c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Noutăți",
+      "targets": [
+        ["linkText=Noutăți", "linkText"],
+        ["css=li:nth-child(18) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Noutăți')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[18]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati.html')]", "xpath:href"],
+        ["xpath=//li[18]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Noutăți')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d774d99-7e43-4f47-ae7e-b90e312ca3aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4",
+      "targets": [
+        ["linkText=4", "linkText"],
+        ["css=.pagination > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'4')])[2]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[9]/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina4.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c5c6025-fed3-441c-9024-e5ad765e4660",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f97c9d8-730a-4f4a-9ec4-775d1e6da0a4",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Cele mai populare"
+    }, {
+      "id": "0505fb5d-1734-4e0b-8a2c-311bc6cb278f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ade06dd1-0aea-47e4-aea7-3d895abee0ea",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Preț crescător"
+    }, {
+      "id": "41af23fd-b392-4b6f-bc2c-19e58cf71afc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,408.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56bd00ad-f9ad-4b4a-baae-cec47b8c2765",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "668edfb4-7394-4e23-a5a9-8f3717ef7be9",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Preț descrescător"
+    }, {
+      "id": "d06e417a-cbdf-422f-bb6b-482058668e5f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,416)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "114ae85c-9be3-4e8b-81d3-3c89797388c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flori artificiale",
+      "targets": [
+        ["linkText=Flori artificiale", "linkText"],
+        ["css=li:nth-child(4) > .catcollapse", "css:finder"],
+        ["xpath=(//a[contains(text(),'Flori artificiale')])[2]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div/ul/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_0-cat-10.html')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Flori artificiale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74430fbc-f09b-46a3-8476-880a58eb5263",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[2]/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf821e1e-f0f9-4ce7-886d-a00158701e94",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Preț crescător"
+    }, {
+      "id": "1f247692-124e-4485-adf8-7b0a2fe7bc4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[2]/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32946638-2bf2-49e7-8a32-1554ece4a0fe",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Nume"
+    }, {
+      "id": "ac10e8eb-14d4-49f0-be5e-e143569a0a39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[2]/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c27e515-ec4f-44be-908f-4ad6edbabc11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filterlist",
+      "targets": [
+        ["css=.filterlist", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a09442d-5d95-4cb2-ae34-7560e2b8084c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.pagination > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[4]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[10]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_0-cat-10_pagina2.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "550cef4e-f0cd-4f4b-b917-c70020c0a914",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [
+        ["css=.paginaretop .sortproducts", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccff1424-9dc7-4ed7-95c0-861b1584ce9a",
+      "comment": "",
+      "command": "select",
+      "target": "css=.paginaretop .sortproducts",
+      "targets": [],
+      "value": "label=Preț descrescător"
+    }, {
+      "id": "0290fb9f-4943-43d4-8ca6-f34e9f7494a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.pagination > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'1')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[8]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/noutati_0-cat-10.html')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "38103586-17f0-43c8-82bb-08c23cb43adf",
+    "name": "TC-003",
+    "commands": [{
+      "id": "290b8d26-366c-49db-af79-dfa27c21d728",
+      "comment": "Displaying the error message of \"Seleccting type\" when we want to add a product to cart and didn't select the type of it.",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e6aa13c-cb1d-43d6-8986-cdfbb19e1215",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "122cb885-be11-4ba8-9bf8-8b632866ee0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle > span",
+      "targets": [
+        ["css=.dropdown-toggle > span", "css:finder"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29ca5618-9903-4e03-ac58-a73ac4701ee9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-9 a:nth-child(1)",
+      "targets": [
+        ["css=.col-xs-9 a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[22]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0d24e9-81fe-4851-9557-7bf76b6e43e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#promotii-carousel .item:nth-child(1) > .colsm5:nth-child(1) .img-responsive",
+      "targets": [
+        ["css=#promotii-carousel .item:nth-child(1) > .colsm5:nth-child(1) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Buchet 7 trandafiri+3 boboci']", "xpath:img"],
+        ["xpath=//div[@id='promotii-carousel']/div/div/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div[2]/div/div/div/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55fbc1b4-7f71-47d8-af9b-dcaff3b50b7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-shopping-basket",
+      "targets": [
+        ["css=.fa-shopping-basket", "css:finder"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[6]/button/i", "xpath:idRelative"],
+        ["xpath=//div[6]/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "422ba0c8-f2c6-4c4e-9520-f1dd504b2591",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Selectați model",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5f092352-1c19-4499-9ee6-66f7d4b82d13",
+    "name": "TC-004",
+    "commands": [{
+      "id": "b8adfa36-9208-43d2-bb6f-8d857424d1ae",
+      "comment": "When somebody try to make an order less than 100 Lei, Instead of the \"Place Order\" button there will be a message with:\"minimum order is 100 lei\"",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ef48dfe-7390-4049-a1a8-1f2a4fbf677f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ff588bc-0390-4199-9539-287a1d638031",
+      "comment": "",
+      "command": "click",
+      "target": "css=#noutati-carousel .item:nth-child(1) > .colsm5:nth-child(2) .img-responsive",
+      "targets": [
+        ["css=#noutati-carousel .item:nth-child(1) > .colsm5:nth-child(2) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Set 4 aripi inger color']", "xpath:img"],
+        ["xpath=//div[@id='noutati-carousel']/div/div/div[2]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7b8426-901d-4326-9502-5347553c8648",
+      "comment": "",
+      "command": "click",
+      "target": "css=.margint10 > .btn",
+      "targets": [
+        ["css=.margint10 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96de544d-bd02-4113-9d54-e751bb97feac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Vezi detalii coș')]", "xpath:link"],
+        ["xpath=//div[@id='myModal']/div/div/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cos-de-cumparaturi')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7db67c85-c351-4264-b8fc-fd8c5094a97f",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.pad20",
+      "targets": [
+        ["css=.pad20", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "248.4000244140625,167.73748779296875"
+    }, {
+      "id": "0c4dcc65-ddf5-4fda-8612-00c2cd6ab95c",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.pad20",
+      "targets": [
+        ["css=.pad20", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "248.4000244140625,167.73748779296875"
+    }, {
+      "id": "8b7c9a9c-ae92-438e-8cad-39e1c5589384",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.pad20",
+      "targets": [
+        ["css=.pad20", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "248.4000244140625,167.73748779296875"
+    }, {
+      "id": "0ec257f3-d44b-494d-b9ad-b581ec219429",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pad20",
+      "targets": [
+        ["css=.pad20", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c258daa0-15d2-4bfc-b8f6-c7cb587c1530",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "51a47ed1-c341-4c25-b4ed-0f6b65b3b857",
+    "name": "TC-005",
+    "commands": [{
+      "id": "b977c509-4d93-4374-a962-20926365d317",
+      "comment": "Verifying if we can make an order for 100 Lei",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "009823f2-d10a-47cd-8b72-6738306506be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89bbf5c1-eaa2-4a7e-82c4-91f73f514c7f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flori artificiale",
+      "targets": [
+        ["linkText=Flori artificiale", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flori artificiale')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-artificiale-.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flori artificiale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4159e464-5300-4eca-ac97-1b99c4b3707a",
+      "comment": "",
+      "command": "click",
+      "target": "id=prod5748",
+      "targets": [
+        ["id=prod5748", "id"],
+        ["css=#prod5748", "css:finder"],
+        ["xpath=(//a[contains(text(),'Detalii')])[2]", "xpath:link"],
+        ["xpath=//a[@id='prod5748']", "xpath:attributes"],
+        ["xpath=//div[@id='category-page']/div[3]/div[4]/div[3]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/buturuga-muschi-3217.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a47e1f37-b32a-41d3-b88c-939b40a0493b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.margint10 > .btn",
+      "targets": [
+        ["css=.margint10 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ff2d05-1500-46de-8717-1234a8a7bb10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Vezi detalii coș')]", "xpath:link"],
+        ["xpath=//div[@id='myModal']/div/div/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cos-de-cumparaturi')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fda9a8a6-8551-4cb6-9f15-c8e6c117fd16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.block:nth-child(2)",
+      "targets": [
+        ["css=.block:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Pasul următor')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/checkout')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c777b46-7192-435f-a40d-24748dfa783d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.asguest",
+      "targets": [
+        ["css=.asguest", "css:finder"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e6b14e2-da29-4d20-95d4-c693c48788e7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,868.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6050bf7-79b4-49b9-b20f-374654d7178a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,867.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13d362b3-c0e9-4d73-b8d6-91bd32d41c86",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "186d9f16-4057-43eb-988f-60d72f7da2e4",
+    "name": "TC-006",
+    "commands": [{
+      "id": "aa8af3b5-6b89-42d5-9fa9-1315ea3bb7fd",
+      "comment": "Verification of the correct inclusion and calculation of delivery in the amount for orders from 100 Lei to 299 Lei",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "615c4424-a66a-40fd-8814-e532536690f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "909c98df-2fc4-46d0-8909-44bcf31afe9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) .ls-is-cached",
+      "targets": [
+        ["css=a:nth-child(2) .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='Set 6 figurine lemn+bat']", "xpath:img"],
+        ["xpath=//div[@id='promotii-carousel']/div/div/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div[2]/div/div/div/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f23264b-6286-4557-8f89-764550087377",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-4:nth-child(7) .series",
+      "targets": [
+        ["css=.col-xs-4:nth-child(7) .series", "css:finder"],
+        ["xpath=(//input[@name='seria'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[5]/label/input", "xpath:idRelative"],
+        ["xpath=//div[5]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3360d8ee-735f-4f9c-81e6-a24dc488c501",
+      "comment": "",
+      "command": "click",
+      "target": "name=qty",
+      "targets": [
+        ["name=qty", "name"],
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@name='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc4aadcb-8462-47f8-9bf0-a5760bee5158",
+      "comment": "",
+      "command": "click",
+      "target": "name=qty",
+      "targets": [
+        ["name=qty", "name"],
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@name='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c6512b3-93ea-488f-9a4a-56c487ac694d",
+      "comment": "",
+      "command": "type",
+      "target": "name=qty",
+      "targets": [
+        ["name=qty", "name"],
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@name='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "b407f6a0-b818-49d0-8b8e-c90f83fc47ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[11]/button", "xpath:idRelative"],
+        ["xpath=//div[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18ede4bf-188d-4a2e-9ed4-859cecb2e695",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[11]/button", "xpath:idRelative"],
+        ["xpath=//div[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c73307de-a929-4dfa-8573-28db5116e020",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[11]/button", "xpath:idRelative"],
+        ["xpath=//div[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b8062d6-d1aa-440b-a6b2-f9208ced4cc4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Vezi detalii coș')]", "xpath:link"],
+        ["xpath=//div[@id='myModal']/div/div/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cos-de-cumparaturi')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0851f39-bcfe-4d7d-be03-579d2fb2c3aa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Vezi detalii coș')]", "xpath:link"],
+        ["xpath=//div[@id='myModal']/div/div/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cos-de-cumparaturi')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b75d1c-1a34-4cf5-a626-bfa289c69b82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Vezi detalii coș')]", "xpath:link"],
+        ["xpath=//div[@id='myModal']/div/div/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cos-de-cumparaturi')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d06acf4a-2e56-4f46-9c59-398cc526121f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.block:nth-child(2)",
+      "targets": [
+        ["css=.block:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Pasul următor')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/checkout')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df95e694-b355-4ceb-a6c9-7216663fcb90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.asguest",
+      "targets": [
+        ["css=.asguest", "css:finder"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f002c621-c787-41a0-a577-6593c408942d",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkouformholder",
+      "targets": [
+        ["id=checkouformholder", "id"],
+        ["css=#checkouformholder", "css:finder"],
+        ["xpath=//div[@id='checkouformholder']", "xpath:attributes"],
+        ["xpath=//form[@id='finalizare']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00cfaf17-d4fe-4b05-afa9-bb40216dea53",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .text-right",
+      "targets": [
+        ["css=tr:nth-child(4) > .text-right", "css:finder"],
+        ["xpath=//div[@id='checkouformholder']/div/div/table/tbody/tr[4]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'240.00 lei')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "198044d3-9983-4806-80dc-9084b69e1840",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7849e80c-42cb-4eda-8503-cf871252d99a",
+    "name": "TC-007",
+    "commands": [{
+      "id": "5b29ff03-30ec-4a7e-b91e-056dc4d25de8",
+      "comment": "Verifying of the exclusion of shipping for orders that worth more than 300 Lei",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02396ffd-0cc2-48f4-b573-fd359bb87ad2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcb8ea3a-8956-4197-9b03-3b6ef7c1c800",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=7",
+      "targets": [
+        ["linkText=7", "linkText"],
+        ["css=.cart", "css:finder"],
+        ["xpath=//a[contains(@href, '/cos-de-cumparaturi')]", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15644787-7f49-4156-b180-7ff0b33bbf9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=//form[@id='checkoutform']/div/div[2]/div/div[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d5c90da-9c12-4e14-a107-d3a881a6da56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-minus",
+      "targets": [
+        ["css=.fa-minus", "css:finder"],
+        ["xpath=//form[@id='checkoutform']/div/div[2]/div/div[2]/div/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7faeb7e8-25d4-4c79-994a-3775cef806d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pad20",
+      "targets": [
+        ["css=.pad20", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14dd49cf-6d05-4263-a440-58365081baae",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e49d126f-1565-4f30-b7dd-b4ffb421107e",
+    "name": "TC-008",
+    "commands": [{
+      "id": "6a0b366c-a428-4c1c-94f2-706694b2ac8b",
+      "comment": "Verification of add-ing and removing products from cart is working (+, - and recycle button)",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c33008d7-7f28-4b79-b4bb-b42bf8f8731a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac7eedc8-278c-4c55-b2f5-8de0ef195429",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle > span",
+      "targets": [
+        ["css=.dropdown-toggle > span", "css:finder"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ef085de-09d5-47be-8141-6413b0825de6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Paște 2022",
+      "targets": [
+        ["linkText=Paște 2022", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Paște 2022')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-paste-2022.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Paște 2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e466964-6360-45ec-9ed0-0e4dd7cffc2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(6) > .col-xs-12:nth-child(2) .img-responsive",
+      "targets": [
+        ["css=.row:nth-child(6) > .col-xs-12:nth-child(2) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Lalele color']", "xpath:img"],
+        ["xpath=//div[@id='category-page']/div[3]/div[4]/div[2]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e346bdf3-b621-4a9b-934e-ff699c4d6a2f",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "name=qty",
+      "targets": [
+        ["name=qty", "name"],
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@name='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "72.39996337890625,21.024993896484375"
+    }, {
+      "id": "180f6f9f-53a4-48c5-bb06-77f203936cb3",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "name=qty",
+      "targets": [
+        ["name=qty", "name"],
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@name='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "72.39996337890625,21.024993896484375"
+    }, {
+      "id": "5b1ae899-7703-495c-9954-343e187370e1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "name=qty",
+      "targets": [
+        ["name=qty", "name"],
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@name='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "72.39996337890625,21.024993896484375"
+    }, {
+      "id": "cadf7ba6-1e8a-408f-91e6-f25476f56e2d",
+      "comment": "",
+      "command": "click",
+      "target": "name=qty",
+      "targets": [
+        ["name=qty", "name"],
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@name='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f62b3c62-a02f-4b41-800f-ca6218daa070",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-4:nth-child(3) > label",
+      "targets": [
+        ["css=.col-xs-4:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div/label", "xpath:idRelative"],
+        ["xpath=//div/label", "xpath:position"],
+        ["xpath=//label[contains(.,' model 4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a197027-6c00-4e64-9a6a-1e42cfeba1ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[8]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d730dc91-5e8e-4b7f-adb9-a00d13cb7b88",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[8]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90e0e08a-3bfc-4dc6-85c8-9638b6e66095",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hasseries",
+      "targets": [
+        ["css=.hasseries", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[8]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "526c7f0d-4b02-47ac-b919-25194d2e6591",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Înapoi la cumpărături",
+      "targets": [
+        ["linkText=Înapoi la cumpărături", "linkText"],
+        ["css=.col-xs-12 > .closemodal", "css:finder"],
+        ["xpath=//a[contains(text(),'Înapoi la cumpărături')]", "xpath:link"],
+        ["xpath=//div[@id='myModal']/div/div/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Înapoi la cumpărături')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78d37d11-ac88-4ced-acca-0f3df64efd93",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flori artificiale",
+      "targets": [
+        ["linkText=Flori artificiale", "linkText"],
+        ["css=#mainMenu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flori artificiale')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-artificiale-.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flori artificiale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bc12eab-6711-4c07-a469-523123cda119",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(6) > .col-xs-12:nth-child(2) .img-responsive",
+      "targets": [
+        ["css=.row:nth-child(6) > .col-xs-12:nth-child(2) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Crenguta brad']", "xpath:img"],
+        ["xpath=//div[@id='category-page']/div[3]/div[4]/div[2]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6846058e-914d-4798-bb54-1400038c5e38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.margint10 > .btn",
+      "targets": [
+        ["css=.margint10 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-offer']/div[2]/div[4]/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca641805-1ca3-4221-a3ea-41822e0bebe7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .fa-shopping-basket",
+      "targets": [
+        ["css=.btn-success > .fa-shopping-basket", "css:finder"],
+        ["xpath=//div[@id='myModal']/div/div/div[2]/div/div[3]/a/i", "xpath:idRelative"],
+        ["xpath=//div[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ce2b625-9822-492c-af9b-9e5c8a1eec97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(6) .qtychange:nth-child(3)",
+      "targets": [
+        ["css=.row:nth-child(6) .qtychange:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='checkoutform']/div[3]/div[2]/div/div[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a12823f7-3445-42f9-800a-cf928f6ef201",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(9) .qtychange:nth-child(3) > .fa",
+      "targets": [
+        ["css=.row:nth-child(9) .qtychange:nth-child(3) > .fa", "css:finder"],
+        ["xpath=//form[@id='checkoutform']/div[4]/div[2]/div/div[2]/div/span[2]/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div[2]/div/span[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d20bc779-9778-4744-a651-f64610a740bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(6) .qtychange:nth-child(1) > .fa",
+      "targets": [
+        ["css=.row:nth-child(6) .qtychange:nth-child(1) > .fa", "css:finder"],
+        ["xpath=//form[@id='checkoutform']/div[3]/div[2]/div/div[2]/div/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4756f7c3-1248-4abf-a726-5d74eb62ebcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(9) .qtychange:nth-child(1) > .fa",
+      "targets": [
+        ["css=.row:nth-child(9) .qtychange:nth-child(1) > .fa", "css:finder"],
+        ["xpath=//form[@id='checkoutform']/div[4]/div[2]/div/div[2]/div/span/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div[2]/div/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9171a44-10a7-432f-bd0f-bfdc65a162aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(9) .qtychange:nth-child(1) > .fa",
+      "targets": [
+        ["css=.row:nth-child(9) .qtychange:nth-child(1) > .fa", "css:finder"],
+        ["xpath=//form[@id='checkoutform']/div[4]/div[2]/div/div[2]/div/span/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div[2]/div/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bed33d4-87b6-4b4e-a6d7-2c94e76c9061",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "021c1202-084f-4462-970b-96496f4ef187",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(9) .col-xs-12 > .fa",
+      "targets": [
+        ["css=.row:nth-child(9) .col-xs-12 > .fa", "css:finder"],
+        ["xpath=//form[@id='checkoutform']/div[4]/div[2]/div/div[3]/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div[3]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9051a1d2-0c0e-4afe-9f7c-a61ffc7c75a1",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Esti sigur ca vrei sa stergi produsul din cos?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b74f4e18-4cf3-4fc5-9ab1-a9fa2972f10f",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f13f0aea-5088-46e0-8fdd-8c79b82ec997",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ecdb36e-12c2-4c52-b739-10fd21f5980d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-trash",
+      "targets": [
+        ["css=.fa-trash", "css:finder"],
+        ["xpath=//form[@id='checkoutform']/div[3]/div[2]/div/div[3]/i", "xpath:idRelative"],
+        ["xpath=//div[3]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd6c2c19-599b-4517-a004-acb47bdfca2a",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Esti sigur ca vrei sa stergi produsul din cos?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bee7569-ea78-48a4-a7bc-ff6b0e28c22b",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b2d98c9-d0d2-45c8-b88e-65ed9d86405d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pad20 .col-xs-12:nth-child(1)",
+      "targets": [
+        ["css=.pad20 .col-xs-12:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c53cfc44-0ed6-44cd-b697-539c8dd26522",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.cart", "css:finder"],
+        ["xpath=//a[contains(@href, '/cos-de-cumparaturi')]", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ff3b134-5987-43a6-b643-dc73dd267c23",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "96b0eb42-ae73-4503-b1d7-0d3ab8843102",
+    "name": "TC-010",
+    "commands": [{
+      "id": "1959e29a-1fd5-457a-a1d0-e08efb78f34e",
+      "comment": "Verifying if the last pages are displayed from all the categories  Pre-conditions",
+      "command": "open",
+      "target": "https://www.celoplast.ro/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f32b28e2-928e-43ca-8630-0300c035d43d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "374c1bcf-2073-4b25-9759-dfd6a4e82dd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flori de săpun",
+      "targets": [
+        ["linkText=Flori de săpun", "linkText"],
+        ["css=#mainMenu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flori de săpun')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-de-sapun.html')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flori de săpun')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d9b66ec-99ba-4edf-8717-bc982d61b4ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Paște 2022",
+      "targets": [
+        ["linkText=Paște 2022", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Paște 2022')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-paste-2022.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Paște 2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c740998-c135-474f-a325-41013c1c5a62",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4",
+      "targets": [
+        ["linkText=4", "linkText"],
+        ["css=.pagination > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'4')])[2]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-paste-2022_pagina4.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "302e70b6-011f-4eb1-aa96-a3881b372797",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cutii pentru flori, cutii decorative pentru aranjamente florale",
+      "targets": [
+        ["linkText=Cutii pentru flori, cutii decorative pentru aranjamente florale", "linkText"],
+        ["css=#mainMenu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cutii pentru flori, cutii decorative pentru aranjamente florale')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cutii-flori-.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cutii pentru flori, cutii decorative pentru aranjamente florale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85f35e77-3d51-49a8-8cca-114207896033",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.pagination > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cutii-flori-_pagina6.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4bf1790-02cd-4d30-8af3-f9aa8c784a52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle",
+      "targets": [
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66e08222-14d4-4277-8844-e656156ffe5b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flori artificiale",
+      "targets": [
+        ["linkText=Flori artificiale", "linkText"],
+        ["css=#mainMenu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flori artificiale')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-artificiale-.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flori artificiale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44d3255c-2113-46ac-8da7-5f0116213492",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.pagination > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-artificiale-_pagina14.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f94676fe-9dc3-4f68-9113-8d4ba7bcfd3e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ambalaje pentru flori",
+      "targets": [
+        ["linkText=Ambalaje pentru flori", "linkText"],
+        ["css=#mainMenu > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ambalaje pentru flori')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ambalaje-pentru-flori-.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ambalaje pentru flori')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bec7a00b-f948-45d9-8126-87a0c82e1122",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.pagination > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[3]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ambalaje-pentru-flori-_pagina2.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bee3164-4b74-4981-a46e-bd539081b142",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cosuri pentru flori",
+      "targets": [
+        ["linkText=Cosuri pentru flori", "linkText"],
+        ["css=li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cosuri pentru flori')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cosuri.html')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cosuri pentru flori')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c157205d-3450-4ff0-829c-b7b367d61d80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.pagination > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cosuri_pagina11.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ccfc7d9-dfbc-4360-8bf3-db939e74bf26",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Burete pentru flori",
+      "targets": [
+        ["linkText=Burete pentru flori", "linkText"],
+        ["css=li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Burete pentru flori')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/burete-pentru-flori.html')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Burete pentru flori')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c450cfad-ba93-406a-b948-b2da4bb1c686",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.pagination > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/burete-pentru-flori_pagina5.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb82c1ed-3dcb-4c56-94e9-0b25e410108d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Panglici si role decorative",
+      "targets": [
+        ["linkText=Panglici si role decorative", "linkText"],
+        ["css=li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Panglici si role decorative')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/panglici-si-role-decorative.html')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Panglici si role decorative')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fa473ae-e07c-43d6-8865-b71b216bbc74",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.pagination > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/panglici-si-role-decorative_pagina5.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a88b68-d3ae-4f62-8ce8-e154423d0b68",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articole decorative",
+      "targets": [
+        ["linkText=Articole decorative", "linkText"],
+        ["css=li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Articole decorative')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articole-decorative.html')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articole decorative')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c7f20b-32c8-4d9d-9543-d3e9de8399c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.pagination > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articole-decorative_pagina13.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14fd5611-86cf-4aa6-bb24-0fca8ec76363",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vase ceramica si sticla",
+      "targets": [
+        ["linkText=Vase ceramica si sticla", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vase ceramica si sticla')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vase-ceramica-si-sticla.html')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vase ceramica si sticla')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96504e54-5cf9-425b-a33a-e2ee91b36f91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3",
+      "targets": [
+        ["linkText=3", "linkText"],
+        ["css=.pagination > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'3')])[2]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vase-ceramica-si-sticla_pagina3.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78b9bb60-ee9b-44da-92fe-d3ab571715ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vase plastic",
+      "targets": [
+        ["linkText=Vase plastic", "linkText"],
+        ["css=li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vase plastic')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vase-plastic.html')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vase plastic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59ecfe92-c6b7-4c37-9011-1fc5d17722bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vase metal tabla",
+      "targets": [
+        ["linkText=Vase metal tabla", "linkText"],
+        ["css=li:nth-child(12) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vase metal tabla')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[12]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vase-metal-tabla.html')]", "xpath:href"],
+        ["xpath=//li[12]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vase metal tabla')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edce8236-513b-42d2-bf2c-00a4e8f7e6c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pgnare",
+      "targets": [
+        ["css=.pgnare", "css:finder"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[10]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "826c1a50-b928-44cb-a1bc-045e0b93c888",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.pagination > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[3]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vase-metal-tabla_pagina2.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "896ca256-1e9d-4efb-a96b-5718b8b6e584",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flori uscate si plante uscate",
+      "targets": [
+        ["linkText=Flori uscate si plante uscate", "linkText"],
+        ["css=li:nth-child(13) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flori uscate si plante uscate')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[13]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-uscate-si-plante-uscate.html')]", "xpath:href"],
+        ["xpath=//li[13]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flori uscate si plante uscate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "728e17c7-d39e-47e0-8050-acb7196ae921",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.pagination > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[3]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flori-uscate-si-plante-uscate_pagina2.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39ab1261-c79c-4ede-930f-0be397a30997",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lumanari decorative",
+      "targets": [
+        ["linkText=Lumanari decorative", "linkText"],
+        ["css=li:nth-child(14) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lumanari decorative')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[14]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lumanari.html')]", "xpath:href"],
+        ["xpath=//li[14]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lumanari decorative')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99ea35cf-8e61-4a10-9fe9-d4ce5eff6f98",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articole nunta",
+      "targets": [
+        ["linkText=Articole nunta", "linkText"],
+        ["css=li:nth-child(15) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Articole nunta')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[15]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articole-nunta.html')]", "xpath:href"],
+        ["xpath=//li[15]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articole nunta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a56893ab-4634-4960-a14d-e10e99fe5981",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.pagination > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articole-nunta_pagina5.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c2f5177-57f0-4038-8377-2f2c1e85333f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articole funerare",
+      "targets": [
+        ["linkText=Articole funerare", "linkText"],
+        ["css=li:nth-child(16) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Articole funerare')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[16]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articole-funerare.html')]", "xpath:href"],
+        ["xpath=//li[16]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articole funerare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "212b71ce-b51d-42ea-934f-6a88caea0cfa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.pagination > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[3]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articole-funerare_pagina2.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeed1455-cdcf-496f-a2a9-d00633f9679e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Accesorii floristica",
+      "targets": [
+        ["linkText=Accesorii floristica", "linkText"],
+        ["css=li:nth-child(17) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Accesorii floristica')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[17]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/accesorii-floristica.html')]", "xpath:href"],
+        ["xpath=//li[17]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Accesorii floristica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b7d77e-be74-48ab-8702-41a18ef568ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.pagination > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[3]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/accesorii-floristica_pagina2.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "746add16-7c6d-4f54-b2dd-ea2a34662262",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Noutăți",
+      "targets": [
+        ["linkText=Noutăți", "linkText"],
+        ["css=li:nth-child(18) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Noutăți')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[18]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati.html')]", "xpath:href"],
+        ["xpath=//li[18]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Noutăți')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88a2caee-02ef-4660-ad49-276694fabc1c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.pagination > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[9]/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina9.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "322ce1c2-e19c-4e7f-b0db-a5db6df7cf54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Promoții",
+      "targets": [
+        ["linkText=Promoții", "linkText"],
+        ["css=#mainMenu > li:nth-child(19) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Promoții')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[19]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/promotii.html')]", "xpath:href"],
+        ["xpath=//li[19]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Promoții')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9f14d2c-0ec9-4040-ae9b-dffaace39144",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ebc647ba-08d7-412e-8e26-19a4cfc60bb8",
+    "name": "TC-009",
+    "commands": [{
+      "id": "6c60d238-1fcd-4d22-8b09-04292d92365a",
+      "comment": "Checking that the correct number of products is displayed on the page after selecting a certain number of products on the page",
+      "command": "open",
+      "target": "https://www.celoplast.ro/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "123fbb99-5326-4d06-90ff-2e620645e3cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "881601a4-8030-428d-b726-52a9abec3eeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle",
+      "targets": [
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ff0dfd8-08de-4a2a-b6b7-e2b217ff8306",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articole decorative",
+      "targets": [
+        ["linkText=Articole decorative", "linkText"],
+        ["css=li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Articole decorative')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articole-decorative.html')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articole decorative')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbb5234b-ea85-422e-9151-89866f2e9eb6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3",
+      "targets": [
+        ["linkText=3", "linkText"],
+        ["css=.pagination > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'3')])[2]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[3]/div[10]/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articole-decorative_pagina3.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc1017d2-6da0-4e63-97d9-554b837240fa",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f9892709-c28e-4412-b18d-86f4eec00d8e",
+    "name": "TC-011",
+    "commands": [{
+      "id": "87a0a345-9d79-4a9e-a90a-66efb7af58aa",
+      "comment": "Verifying if the tab \"Search\" from the website is working",
+      "command": "open",
+      "target": "https://www.celoplast.ro/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4c2e8da-03ff-4104-b416-76adad3ba0bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cea7e7a-1eff-4ea3-8360-14f3417b2bd3",
+      "comment": "",
+      "command": "click",
+      "target": "id=kulcs",
+      "targets": [
+        ["id=kulcs", "id"],
+        ["name=kulcs", "name"],
+        ["css=#kulcs", "css:finder"],
+        ["xpath=//input[@id='kulcs']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c32a08c7-10a9-48e2-add5-d5091233e385",
+      "comment": "",
+      "command": "type",
+      "target": "id=kulcs",
+      "targets": [
+        ["id=kulcs", "id"],
+        ["name=kulcs", "name"],
+        ["css=#kulcs", "css:finder"],
+        ["xpath=//input[@id='kulcs']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Trandafiri"
+    }, {
+      "id": "159cd2b2-64f3-462d-9681-09d13f934c9d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=kulcs",
+      "targets": [
+        ["id=kulcs", "id"],
+        ["name=kulcs", "name"],
+        ["css=#kulcs", "css:finder"],
+        ["xpath=//input[@id='kulcs']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "62ef57f6-0312-4a59-bb8a-a44e02c3aa69",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "053163bf-6eb7-4255-a3eb-1550b848fc88",
+    "name": "TC-012",
+    "commands": [{
+      "id": "6e8fa4bd-0b0f-4c6f-965b-b64856500555",
+      "comment": "Verifying the functionality of the buttons that apears on the first page from the slide pictures",
+      "command": "open",
+      "target": "https://www.celoplast.ro/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f35e9293-2e9e-4edc-a064-eee89fa7b065",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba6a501c-9b48-4b2e-ab14-39b838906818",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > a .img-responsive",
+      "targets": [
+        ["css=.active > a .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Ambalaje, decoratiuni si accesorii pentru flori. Produse de calitate la pret de importator, cu livrare in toata Romania.']", "xpath:img"],
+        ["xpath=//div[@id='carousel-example-generic0']/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "badcdb6b-2fab-4928-823c-a59c042943f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand > .img-responsive",
+      "targets": [
+        ["css=.brand > .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Ambalaje, decoratiuni si accesorii pentru flori. Produse de calitate la pret de importator, cu livrare in toata Romania. ']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffdd8954-765e-49b0-a711-40caa1aba3b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45c5b41c-2294-4d3c-9113-c853c493ce60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > a .img-responsive",
+      "targets": [
+        ["css=.active > a .img-responsive", "css:finder"],
+        ["xpath=(//img[@alt='Ambalaje, decoratiuni si accesorii pentru flori. Produse de calitate la pret de importator, cu livrare in toata Romania.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='carousel-example-generic0']/div/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4ac3e3d-a18d-4e2f-9968-23ac3e6a4943",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand > .img-responsive",
+      "targets": [
+        ["css=.brand > .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Ambalaje, decoratiuni si accesorii pentru flori. Produse de calitate la pret de importator, cu livrare in toata Romania. ']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "341fbf7b-a62d-4c0e-85a3-cbb8e71ab3cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "570a61fd-04c7-4f31-8c30-cc073231dcc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38570a88-79a1-4bd8-9b39-b8a8273c3bd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > a .img-responsive",
+      "targets": [
+        ["css=.active > a .img-responsive", "css:finder"],
+        ["xpath=(//img[@alt='Ambalaje, decoratiuni si accesorii pentru flori. Produse de calitate la pret de importator, cu livrare in toata Romania.'])[3]", "xpath:img"],
+        ["xpath=//div[@id='carousel-example-generic0']/div/div[3]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f338a060-26e4-462c-98db-a859d0556baf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand > .img-responsive",
+      "targets": [
+        ["css=.brand > .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Ambalaje, decoratiuni si accesorii pentru flori. Produse de calitate la pret de importator, cu livrare in toata Romania. ']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12951aa1-3da3-4dd9-9acd-89a1f0872032",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9430913f-b2b9-474f-904d-23bcbbe91cae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65eb5a3e-8f53-4e27-b11d-9e7483ff9874",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10c0082b-bd1a-4cee-a91b-74e3a795bf2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > a .img-responsive",
+      "targets": [
+        ["css=.active > a .img-responsive", "css:finder"],
+        ["xpath=(//img[@alt='Ambalaje, decoratiuni si accesorii pentru flori. Produse de calitate la pret de importator, cu livrare in toata Romania.'])[4]", "xpath:img"],
+        ["xpath=//div[@id='carousel-example-generic0']/div/div[4]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35a95129-c6a7-417e-a324-b573ce76db23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand > .img-responsive",
+      "targets": [
+        ["css=.brand > .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Ambalaje, decoratiuni si accesorii pentru flori. Produse de calitate la pret de importator, cu livrare in toata Romania. ']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd57c101-e714-4b68-9971-ae4cd5ee7f9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce474d7e-a59d-4b7c-9593-9277e6eeb4e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f055cf8a-e24b-4712-8457-40f77ae075ef",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40730246-dd30-4c71-a40f-8d4314181979",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f336c991-334e-4e9d-9edc-a16993453f93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86e1a46e-bda6-47c3-a236-bff15353876e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3249d2c1-15ef-4a22-9386-689a9ebac968",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-chevron-right",
+      "targets": [
+        ["css=.glyphicon-chevron-right", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic0']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9a2b161-dcfa-498a-a3f7-b9216d85b6c4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6abf7046-2e94-4fe6-9f75-c5ce262899a5",
+    "name": "TC-013",
+    "commands": [{
+      "id": "ed1f830d-0c6d-4ec4-86e3-0353a9a584c1",
+      "comment": "Verifying the label \"New\" apearence on product from \"New\" category",
+      "command": "open",
+      "target": "https://www.celoplast.ro/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df2d2f78-3ccb-4fd5-9cac-24d34526ca32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fec19d7-f514-4d8e-b1c4-0dbf0bb20572",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-9 a:nth-child(2)",
+      "targets": [
+        ["css=.col-xs-9 a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Noutăți')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/noutati.html')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e72bb670-2d64-4bd9-819b-ae47fbaac870",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.pagination > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[8]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[9]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina2.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3730a130-8cdc-46a5-a3a6-2b059a7cd131",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3",
+      "targets": [
+        ["linkText=3", "linkText"],
+        ["css=.pagination > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'3')])[3]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[8]/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina3.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "098a16fe-1017-4bd6-bfad-c5963ef584af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4",
+      "targets": [
+        ["linkText=4", "linkText"],
+        ["css=.pagination > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'4')])[4]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[8]/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina4.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb63b571-93d2-49a2-bbf7-e05ffafd7d91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=5",
+      "targets": [
+        ["linkText=5", "linkText"],
+        ["css=.pagination > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'5')])[2]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[8]/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina5.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83e797fb-4cbe-4c2d-88cc-f18b693a3561",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=6",
+      "targets": [
+        ["linkText=6", "linkText"],
+        ["css=.pagination > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'6')]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[8]/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina6.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd8e9bad-43b8-43ec-ba47-0d9bc5d7c3af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=7",
+      "targets": [
+        ["linkText=7", "linkText"],
+        ["css=.pagination > li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'7')])[3]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[8]/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina7.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30748813-2703-4cdd-9a54-f64808766ccf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=8",
+      "targets": [
+        ["linkText=8", "linkText"],
+        ["css=.pagination > li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'8')])[2]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[8]/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina8.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f9e18f8-06d8-460c-ba1a-b06af48b326a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=9",
+      "targets": [
+        ["linkText=9", "linkText"],
+        ["css=.pagination > li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'9')])[2]", "xpath:link"],
+        ["xpath=//div[@id='category-page']/div[2]/div[8]/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/noutati_pagina9.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8010a15-22b6-4733-b6ae-eb9ddf5332f1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3a1f6e91-d4e2-4c51-9eb1-884b741345b8",
+    "name": "TC-014",
+    "commands": [{
+      "id": "0329e57d-4dbd-4ca1-91a4-ad9822b312ad",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.celoplast.ro/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ec7c0ba-b983-41ae-bf81-5de43333948c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f23d5a7f-b1d1-41e7-9e50-7b96f8bc6c86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-9 a:nth-child(3)",
+      "targets": [
+        ["css=.col-xs-9 a:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Promoții')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/promotii.html')])[2]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f0208b-6ba0-414f-ae69-0cbb99769a75",
+      "comment": "All the products from \"Promotions\" must have old price, new price, a red label with \"- x precent\" for discount,",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "91c6e9c5-2eeb-478f-9b20-5a90b78f9448",
+    "name": "TC-015",
+    "commands": [{
+      "id": "5e894f48-cfaa-497e-a504-53a70a48f6c9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.celoplast.ro/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b2e7b21-7d12-44fa-bedc-8a9da83f1020",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acaac8d0-34ca-4c83-afc8-df005cfaf960",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .colsm5:nth-child(2) a:nth-child(3) > .nume_produs > span",
+      "targets": [
+        ["css=.active > .colsm5:nth-child(2) a:nth-child(3) > .nume_produs > span", "css:finder"],
+        ["xpath=//div[@id='noutati-carousel']/div/div/div[2]/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97718739-9698-40a8-be8c-21a47c6ac5a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-heart-o",
+      "targets": [
+        ["css=.fa-heart-o", "css:finder"],
+        ["xpath=//div[@id='product']/div/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "492e5b6e-360c-431a-8f4a-d79c939c074e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.favorites", "css:finder"],
+        ["xpath=//a[contains(@href, '/contulmeuop=favorite')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caaadb64-078c-44ea-9ce4-9a7b9dab62ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-heart",
+      "targets": [
+        ["css=.fa-heart", "css:finder"],
+        ["xpath=//div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9dc1571-fff4-4097-8f6f-7ca0c02d03fd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7d9fec3d-aa02-4624-bc4d-d85f4bf88bd0",
+    "name": "Testare Regresie",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a4788efe-2007-4637-bc86-14c270d03a7c"]
+  }],
+  "urls": ["https://www.celoplast.ro/"],
+  "plugins": []
+}
+"id","title","test case id","author","assignee","actual result","status","milestone","severity","external issues","attachments","tags"
+"4","Verifying the old price and new price prom ""Promotions"" category","14","Manea Izabela Ana-Maria","Manea Izabela Ana-Maria","In ""Promotions"" category are products with normal price and with the ""new"" label.","Open","","Major","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/e9759556102129533a40f0c726529bf626031c68/attachment/7a9821aabe88e65daee591e86e70616ba67c9512/Produse%20normale%20si%20noi%20in%20categoria%20de%20promotii.jpg",""
+"3","Display products in the chosen order","1","Manea Izabela Ana-Maria","Manea Izabela Ana-Maria","After we choose to sort the products by lowest price, the first have bigger price than the others","Open","","Normal","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/e9759556102129533a40f0c726529bf626031c68/attachment/9abc0afd9d951ba2dd18044b86cb23cc25a731f4/Sortare%20incorecta.jpg",""
+"2","Verifying the functionality of buttons that apear on the first page","12","Manea Izabela Ana-Maria","Unassigned","When the basket page apears (after clicking on the ""See the full range"" ) on the page don't apear just basket's, there apears boxes too.","Open","","Minor","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/e9759556102129533a40f0c726529bf626031c68/attachment/887b0426ce82f980ad9692e39f2b4746cd430d7e/Produse%20denumite%20cutii%20apar%20la%20categoria%20cosuri.jpg",""
+"1","Display products in the chosen order from ""News"" and ""Artificial flowers""","2","Manea Izabela Ana-Maria","Manea Izabela Ana-Maria","The sorting doesen't work well on ""News"" and ""Artificial flowers"". The first type of product is more expensive than the others when we select ""Sort from lowest price"". And when we sort from the ""in ascending order"" the last product is more expensive than latest products.","Open","","Normal","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/e9759556102129533a40f0c726529bf626031c68/attachment/286e8a3eb626ef70ad8980d8c3c9c63d3d51cc86/Eroare%20la%20sortare%20celoplast.png",""
